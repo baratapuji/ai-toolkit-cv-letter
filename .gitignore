@@ -1,0 +1,52 @@
+# ===== ENVIRONMENT VARIABLES (JANGAN DI-PUSH!) =====
+.env
+.env.local
+.env.*.local
+*.env
+*.env.local
+
+# ===== DEPENDENCIES =====
+node_modules/
+.pnpm-store/
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===== BUILD OUTPUT =====
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ===== CACHE =====
+.cache/
+.vite/
+.parcel-cache/
+.nuxt/
+.next/
+.vscode/
+.idea/
+
+# ===== LOGS =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== DATABASE =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== MISC =====
+coverage/
+.nyc_output/
+*.swp
+*.swo
+*~
