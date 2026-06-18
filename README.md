@@ -259,6 +259,6 @@ Push ke branch (git push origin feature/amazing)
 Buka Pull Request
 
 📄 License
-MIT © 2026 MahasiswaBaru.id
+MIT © 2026 BarataPuji
 
 <div align="center"> Made with ❤️ by Puji Barata <br /> <sub>⚡ "Level up your career with AI" ⚡</sub> </div> ```
