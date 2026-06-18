@@ -57,24 +57,43 @@ AI-TOOLKIT adalah platform berbasis **React + TypeScript** yang menggabungkan ke
 ## 🗂️ Struktur Project
 ai-toolkit-id/
 ├── src/
+
 │ ├── components/
+
 │ │ ├── auth/ # Login/Register screen
+
 │ │ ├── dashboard/ # MainDashboard, CV Scanner, Cover Letter, Achievements, Leaderboard
+
 │ │ ├── shared/ # Sidebar, Topbar
+
 │ │ └── ui/ # shadcn/ui components
+
 │ ├── hooks/ # useAuth, useCVScanner, useCoverLetter, useAchievements, useLeaderboard
+
 │ ├── services/ # aiService, dashboardService, gameService, achievementService, leaderboardService
+
 │ ├── store/ # useGameStore (Zustand)
+
 │ ├── types/ # TypeScript interfaces
+
 │ ├── lib/ # supabase client
+
 │ ├── App.tsx
+
 │ └── main.tsx
+
 ├── public/
+
 ├── .env.example # Template environment variables
+
 ├── index.html
+
 ├── package.json
+
 ├── tailwind.config.js
+
 └── vite.config.ts
+
 
 
 ---
